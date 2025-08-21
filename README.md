@@ -78,6 +78,21 @@ When setting size for flexbox items in % the value specified in % will take avai
 
 Using min-width:0 on a flexbox item allows flexbox to shrink the element below its minimum content size.
 
+````
+
+### Centering container in a page
+
+Defining containers height to min-height:100vh and displaying content as flex items (there is 1 item) and centering it.
+
+```css
+.outside-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+````
+
 Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
 
 To see how you can add code snippets, see below:
