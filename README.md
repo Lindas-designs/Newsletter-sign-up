@@ -15,6 +15,8 @@ This is a solution to the [Newsletter sign-up form with success message challeng
     - [What I learned](#what-i-learned)
     - [Setting size for flexbox items in %](#setting-size-for-flexbox-items-in-)
     - [Min-width usage in flex items](#min-width-usage-in-flex-items)
+    - [Centering container in a page](#centering-container-in-a-page)
+    - [Creating linear gradient for buttons](#creating-linear-gradient-for-buttons)
     - [Continued development](#continued-development)
     - [Useful resources](#useful-resources)
   - [Author](#author)
@@ -78,8 +80,6 @@ When setting size for flexbox items in % the value specified in % will take avai
 
 Using min-width:0 on a flexbox item allows flexbox to shrink the element below its minimum content size.
 
-````
-
 ### Centering container in a page
 
 Defining containers height to min-height:100vh and displaying content as flex items (there is 1 item) and centering it.
@@ -91,7 +91,21 @@ Defining containers height to min-height:100vh and displaying content as flex it
   justify-content: center;
   align-items: center;
 }
-````
+```
+
+### Creating linear gradient for buttons
+
+Using background-image property instead of background-color.
+
+```css
+.btn:active {
+  background-image: linear-gradient(
+    to right,
+    hsl(4, 100%, 67%),
+    hsl(25, 100%, 70%)
+  );
+}
+```
 
 Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
 

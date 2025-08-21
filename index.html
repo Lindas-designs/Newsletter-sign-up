@@ -28,10 +28,10 @@
             discovery and building what matters</li> 
             <li><img class="list-img" src="/assets/images/icon-list.svg" alt="icon">Measuring to ensure updates are
             a success</li> 
-            <li><img class="list-img" src="/assets/images/icon-list.svg" alt="icon">And much more!</li></ul> <form>
+            <li><img class="list-img" src="/assets/images/icon-list.svg" alt="icon">And much more!</li></ul> <form action="#">
               <label>Email address</label> 
               <input placeholder="email@company.com"> 
-              <button>Subscribe
+              <button class="subscribe btn">Subscribe
             to monthly newsletter</button></form>
           </p>
         </section>
@@ -42,11 +42,14 @@
         />
       </div>
     </div>
-    <div class="modal hidden">
-      Thanks for subscribing! A confirmation email has been sent to
+    <div class="modal-container hidden">
+    <div class="modal">
+      <img class="img-success" src="/assets/images/icon-success.svg">
+      <h1 class="h1-thanks">Thanks for subscribing!</h1><p class="message"> A confirmation email has been sent to
       ash@loremcompany.com. Please open it and click the button inside to
-      confirm your subscription. Dismiss message
-    </div>
+      confirm your subscription.</p> <button class="dismiss btn">Dismiss message</button>
+    </div> 
+  </div>
     <div class="attribution">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
