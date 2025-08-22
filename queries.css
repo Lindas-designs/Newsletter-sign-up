@@ -1,0 +1,21 @@
+@media (max-width: 82em) {
+  html {
+    font-size: 55%;
+  }
+}
+@media (max-width: 72em) {
+  html {
+    font-size: 48%;
+  }
+}
+@media (max-width: 63em) {
+  html {
+    font-size: 48%;
+  }
+  .container {
+    flex-direction: column;
+  }
+  .info-section {
+    order: 2;
+  }
+}

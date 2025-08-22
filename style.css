@@ -41,6 +41,7 @@ body {
   display: flex;
 }
 .info-section {
+  margin: auto 0;
   flex: 1;
   min-width: 0;
   padding: 3rem 3rem;

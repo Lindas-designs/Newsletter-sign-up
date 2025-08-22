@@ -18,6 +18,7 @@ This is a solution to the [Newsletter sign-up form with success message challeng
     - [Centering container in a page](#centering-container-in-a-page)
     - [Creating linear gradient for buttons](#creating-linear-gradient-for-buttons)
     - [Using input's value later in html](#using-inputs-value-later-in-html)
+    - [Changing order of flexbox items](#changing-order-of-flexbox-items)
     - [Continued development](#continued-development)
     - [Useful resources](#useful-resources)
   - [Author](#author)
@@ -112,6 +113,16 @@ Using background-image property instead of background-color.
 
 ```js
 element.innerHTML = input.value;
+```
+
+### Changing order of flexbox items
+
+Using order property.
+
+```css
+.info-section {
+  order: 2;
+}
 ```
 
 Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
