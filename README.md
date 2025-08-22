@@ -17,6 +17,7 @@ This is a solution to the [Newsletter sign-up form with success message challeng
     - [Min-width usage in flex items](#min-width-usage-in-flex-items)
     - [Centering container in a page](#centering-container-in-a-page)
     - [Creating linear gradient for buttons](#creating-linear-gradient-for-buttons)
+    - [Using input's value later in html](#using-inputs-value-later-in-html)
     - [Continued development](#continued-development)
     - [Useful resources](#useful-resources)
   - [Author](#author)
@@ -105,6 +106,12 @@ Using background-image property instead of background-color.
     hsl(25, 100%, 70%)
   );
 }
+```
+
+### Using input's value later in html
+
+```js
+element.innerHTML = input.value;
 ```
 
 Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.

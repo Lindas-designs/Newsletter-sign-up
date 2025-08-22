@@ -7,6 +7,8 @@
 :root {
   /* Primary */
   --red: hsl(4, 100%, 67%);
+  --light-red: hsl(5, 100%, 91%);
+
   /* Neutral */
   --blue-800: hsl(234, 29%, 20%);
   --blue-700: hsl(235, 18%, 26%);
@@ -67,9 +69,16 @@ li {
 form {
   margin-top: 2.5rem;
 }
+.email-labels {
+  display: flex;
+  justify-content: space-between;
+}
 label {
   font-size: 1.2rem;
   font-weight: 700;
+}
+.err-label {
+  color: var(--red);
 }
 input {
   display: block;
@@ -83,6 +92,11 @@ input {
 }
 input:focus-visible {
   box-shadow: 0rem 0rem 0.5rem 0.5rem var(--red);
+}
+.errinput {
+  background-color: var(--light-red);
+  color: var(--red);
+  border: 0.1rem solid var(--red);
 }
 .btn {
   margin-top: 2rem;
@@ -146,6 +160,9 @@ input:focus-visible {
 .hidden {
   display: none;
 }
+.output {
+  font-weight: 700;
+}
 .attribution {
   font-size: 11px;
   text-align: center;
@@ -166,6 +183,8 @@ Your users should be able to:
   - The field is left empty
   - The email address is not formatted correctly
 - View the optimal layout for the interface depending on their device's screen size
+
+
 - See hover and focus states for all interactive elements on the page
 The designs were created to the following widths:
 

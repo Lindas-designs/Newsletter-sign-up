@@ -29,7 +29,8 @@
             <li><img class="list-img" src="/assets/images/icon-list.svg" alt="icon">Measuring to ensure updates are
             a success</li> 
             <li><img class="list-img" src="/assets/images/icon-list.svg" alt="icon">And much more!</li></ul> <form action="#">
-              <label>Email address</label> 
+              <div class="email-labels"><label>Email address</label> <label class="err-label hidden">Valid email required</label></div>
+              
               <input placeholder="email@company.com"> 
               <button class="subscribe btn">Subscribe
             to monthly newsletter</button></form>
@@ -45,16 +46,15 @@
     <div class="modal-container hidden">
     <div class="modal">
       <img class="img-success" src="/assets/images/icon-success.svg">
-      <h1 class="h1-thanks">Thanks for subscribing!</h1><p class="message"> A confirmation email has been sent to
-      ash@loremcompany.com. Please open it and click the button inside to
+      <h1 class="h1-thanks">Thanks for subscribing!</h1><p class="message">A confirmation email has been sent to <span class="output"></span>. Please open it and click the button inside to
       confirm your subscription.</p> <button class="dismiss btn">Dismiss message</button>
     </div> 
   </div>
     <div class="attribution">
-      Challenge by
+      Challenge by 
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
         >Frontend Mentor</a
-      >. Coded by <a href="#">Your Name Here</a>.
+      >. Coded by <a href="#">Linda</a>.
     </div>
 
     <script src="script.js"></script>
