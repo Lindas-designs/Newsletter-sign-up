@@ -29,23 +29,28 @@ body {
 }
 .outside-container {
   min-height: 100vh;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .container {
   background-color: var(--white);
-  max-width: 60vw;
+  width: 60%;
   border-radius: 2rem;
   padding: 1.5rem;
   display: flex;
 }
 .info-section {
-  margin: auto 0;
   flex: 1;
-  min-width: 0;
+  margin: auto 0;
   padding: 3rem 3rem;
   line-height: 2.2rem;
+  min-width: 0;
+}
+.container-img {
+  flex: 1;
+  min-width: 0;
 }
 h1 {
   margin-top: 4rem;
@@ -105,7 +110,8 @@ input:focus-visible {
   height: 4rem;
   background-color: var(--blue-800);
   color: var(--white);
-  font-weight: 700;
+  font-size: 1.4rem;
+  font-weight: 600;
   border-radius: 0.5rem;
   outline: none;
 }
@@ -127,11 +133,6 @@ input:focus-visible {
   );
 }
 
-.container-img {
-  flex: 1;
-  /* setting width to maximum available space of FLEXBOX CONTAINER */
-  min-width: 0;
-}
 .modal-container {
   min-height: 100vh;
 
@@ -165,10 +166,12 @@ input:focus-visible {
   font-weight: 700;
 }
 .attribution {
-  font-size: 11px;
   text-align: center;
   bottom: 0;
   position: fixed;
+  color: white;
+  font-weight: 100;
+  font-size: 1.2rem;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
